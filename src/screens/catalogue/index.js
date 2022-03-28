@@ -71,8 +71,9 @@ export const Catalogue = ({ navigation }) => {
 
   return (
     <SafeAreaView style={{backgroundColor:'#fff', height: '100%'}}>
-      <View style={{}}>
-        <TextInput style={{}}/>
+      <View style={{padding:5, height: 30}}>
+        <TextInput style={{borderColor:'black', borderWidth:1, borderRadius:5}}/>
+        <Ionicons size={15} name={'search-outline'} />
       </View>
       <View style={styles.viewContainer}>
           <View style={styles.leftView}>
